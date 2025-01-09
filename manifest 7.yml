@@ -1,0 +1,9 @@
+---
+applications:
+  - name: phpappuiwithdb
+    path: ./phpappuiwithdb
+    memory: 200M
+    random-route: true
+    buildpack : php_buildpack
+    services:
+     - testdbservice
